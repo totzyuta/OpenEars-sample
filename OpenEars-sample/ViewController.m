@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+// #import <OpenEars/OELanguageModelGenerator.h>
+// #import <OpenEars/PocketsphinxController.h>
+// #import <OpenEars/OEAcousticModel.h>
+
 
 @interface ViewController ()
 
