@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1295B0E71B34035900B67D15 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1295B0E41B34035100B67D15 /* OpenEars.framework */; };
+		1295B0E81B34035B00B67D15 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1295B0E51B34035100B67D15 /* Slt.framework */; };
+		1295B0EA1B34042000B67D15 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1295B0E91B34042000B67D15 /* AcousticModelEnglish.bundle */; };
+		12ED1F161B34097900F54658 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ED1F151B34097900F54658 /* AudioToolbox.framework */; };
+		12ED1F181B34098100F54658 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ED1F171B34098100F54658 /* AVFoundation.framework */; };
+		12ED1F1A1B34099700F54658 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ED1F191B34099700F54658 /* Foundation.framework */; };
+		12ED1F1C1B3409A500F54658 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ED1F1B1B3409A500F54658 /* UIKit.framework */; };
+		12ED1F1E1B3409B100F54658 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ED1F1D1B3409B100F54658 /* CoreGraphics.framework */; };
 		12F97DF91B32C3DB00B72335 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F97DF81B32C3DB00B72335 /* main.m */; };
 		12F97DFC1B32C3DB00B72335 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F97DFB1B32C3DB00B72335 /* AppDelegate.m */; };
 		12F97DFF1B32C3DB00B72335 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F97DFE1B32C3DB00B72335 /* ViewController.m */; };
@@ -27,6 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1295B0E41B34035100B67D15 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		1295B0E51B34035100B67D15 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		1295B0E91B34042000B67D15 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		12ED1F151B34097900F54658 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		12ED1F171B34098100F54658 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		12ED1F191B34099700F54658 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12ED1F1B1B3409A500F54658 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		12ED1F1D1B3409B100F54658 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		12F97DF31B32C3DB00B72335 /* OpenEars-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenEars-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F97DF71B32C3DB00B72335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12F97DF81B32C3DB00B72335 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +63,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12ED1F1E1B3409B100F54658 /* CoreGraphics.framework in Frameworks */,
+				12ED1F1C1B3409A500F54658 /* UIKit.framework in Frameworks */,
+				12ED1F1A1B34099700F54658 /* Foundation.framework in Frameworks */,
+				12ED1F181B34098100F54658 /* AVFoundation.framework in Frameworks */,
+				12ED1F161B34097900F54658 /* AudioToolbox.framework in Frameworks */,
+				1295B0E71B34035900B67D15 /* OpenEars.framework in Frameworks */,
+				1295B0E81B34035B00B67D15 /* Slt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +83,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1295B0E11B34035100B67D15 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				12ED1F1D1B3409B100F54658 /* CoreGraphics.framework */,
+				12ED1F1B1B3409A500F54658 /* UIKit.framework */,
+				12ED1F191B34099700F54658 /* Foundation.framework */,
+				12ED1F171B34098100F54658 /* AVFoundation.framework */,
+				12ED1F151B34097900F54658 /* AudioToolbox.framework */,
+				1295B0E91B34042000B67D15 /* AcousticModelEnglish.bundle */,
+				1295B0E41B34035100B67D15 /* OpenEars.framework */,
+				1295B0E51B34035100B67D15 /* Slt.framework */,
+			);
+			name = Framework;
+			path = External/Framework;
+			sourceTree = "<group>";
+		};
 		12F97DEA1B32C3DB00B72335 = {
 			isa = PBXGroup;
 			children = (
+				1295B0E11B34035100B67D15 /* Framework */,
 				12F97DF51B32C3DB00B72335 /* OpenEars-sample */,
 				12F97E0F1B32C3DB00B72335 /* OpenEars-sampleTests */,
 				12F97DF41B32C3DB00B72335 /* Products */,
@@ -200,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12F97E021B32C3DB00B72335 /* Main.storyboard in Resources */,
+				1295B0EA1B34042000B67D15 /* AcousticModelEnglish.bundle in Resources */,
 				12F97E071B32C3DB00B72335 /* LaunchScreen.xib in Resources */,
 				12F97E041B32C3DB00B72335 /* Images.xcassets in Resources */,
 			);
@@ -346,9 +387,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/totz/Desktop/OpenEarsDistribution,
-					"(1)/Framework",
+					/Users/totz/workspace/OpenEarsDistribution/Framework,
+					"$(PROJECT_DIR)/External/Framework",
 				);
 				INFOPLIST_FILE = "OpenEars-sample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -362,9 +402,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/totz/Desktop/OpenEarsDistribution,
-					"(1)/Framework",
+					/Users/totz/workspace/OpenEarsDistribution/Framework,
+					"$(PROJECT_DIR)/External/Framework",
 				);
 				INFOPLIST_FILE = "OpenEars-sample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;

@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <OpenEars/OEEventsObserver.h>
 
-@interface ViewController : UIViewController
 
+@interface ViewController : UIViewController <OEEventsObserverDelegate>
+
+@property (strong, nonatomic) OEEventsObserver *openEarsEventsObserver;
 
 @end
 
